@@ -1,0 +1,973 @@
+<VisualStudioProject Keyword="Win32Proj" RootNamespace="libzsrtp" ProjectGUID="{A1DBDA03-1BA3-2B3B-A2CA-727E3D3AB850}" Name="libzsrtp" Version="8.00" ProjectType="Visual C++">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="Pocket PC 2003 (ARMV4)"/>
+		<Platform Name="Smartphone 2003 (ARMV4)"/>
+		<Platform Name="x64"/>
+		<Platform Name="Windows Mobile 6 Standard SDK (ARMV4I)"/>
+		<Platform Name="Windows Mobile 6 Professional SDK (ARMV4I)"/>
+		<Platform Name="Windows Mobile 5.0 Pocket PC SDK (ARMV4I)"/>
+		<Platform Name="Windows Mobile 5.0 Smartphone SDK (ARMV4I)"/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration CharacterSet="2" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-win32-common-defaults.vsprops" ConfigurationType="4" Name="Debug|Win32">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm2003-common-defaults.vsprops" ConfigurationType="4" Name="Debug|Pocket PC 2003 (ARMV4)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm2003ppc-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm2003-common-defaults.vsprops" ConfigurationType="4" Name="Debug|Smartphone 2003 (ARMV4)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm2003sp-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="2" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-win64-common-defaults.vsprops" ConfigurationType="4" Name="Debug|x64">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool TargetEnvironment="3" Name="VCMIDLTool"/>
+			<Tool DebugInformationFormat="3" PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration CharacterSet="2" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-win32-release-defaults.vsprops" ConfigurationType="4" Name="Release|Win32">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm2003-release-defaults.vsprops" ConfigurationType="4" Name="Release|Pocket PC 2003 (ARMV4)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm2003ppc-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm2003-release-defaults.vsprops" ConfigurationType="4" Name="Release|Smartphone 2003 (ARMV4)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm2003sp-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="2" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-win64-release-defaults.vsprops" ConfigurationType="4" Name="Release|x64">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool TargetEnvironment="3" Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration CharacterSet="2" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-win32-common-defaults.vsprops" ConfigurationType="4" Name="Debug-Static|Win32">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm2003-common-defaults.vsprops" ConfigurationType="4" Name="Debug-Static|Pocket PC 2003 (ARMV4)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm2003ppc-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm2003-common-defaults.vsprops" ConfigurationType="4" Name="Debug-Static|Smartphone 2003 (ARMV4)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm2003sp-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="2" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-win64-common-defaults.vsprops" ConfigurationType="4" Name="Debug-Static|x64">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool TargetEnvironment="3" Name="VCMIDLTool"/>
+			<Tool DebugInformationFormat="3" PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration CharacterSet="2" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-win32-release-defaults.vsprops" ConfigurationType="4" Name="Release-Dynamic|Win32">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm2003-release-defaults.vsprops" ConfigurationType="4" Name="Release-Dynamic|Pocket PC 2003 (ARMV4)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm2003ppc-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm2003-release-defaults.vsprops" ConfigurationType="4" Name="Release-Dynamic|Smartphone 2003 (ARMV4)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm2003sp-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="2" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-win64-release-defaults.vsprops" ConfigurationType="4" Name="Release-Dynamic|x64">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool TargetEnvironment="3" Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration CharacterSet="2" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-win32-common-defaults.vsprops" ConfigurationType="4" Name="Debug-Dynamic|Win32">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm2003-common-defaults.vsprops" ConfigurationType="4" Name="Debug-Dynamic|Pocket PC 2003 (ARMV4)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm2003ppc-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm2003-common-defaults.vsprops" ConfigurationType="4" Name="Debug-Dynamic|Smartphone 2003 (ARMV4)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm2003sp-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="2" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-win64-common-defaults.vsprops" ConfigurationType="4" Name="Debug-Dynamic|x64">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool TargetEnvironment="3" Name="VCMIDLTool"/>
+			<Tool DebugInformationFormat="3" PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration CharacterSet="2" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-win32-release-defaults.vsprops" ConfigurationType="4" Name="Release-Static|Win32">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm2003-release-defaults.vsprops" ConfigurationType="4" Name="Release-Static|Pocket PC 2003 (ARMV4)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm2003ppc-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm2003-release-defaults.vsprops" ConfigurationType="4" Name="Release-Static|Smartphone 2003 (ARMV4)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm2003sp-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="2" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-win64-release-defaults.vsprops" ConfigurationType="4" Name="Release-Static|x64">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool TargetEnvironment="3" Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm6-common-defaults.vsprops" ConfigurationType="4" Name="Debug|Windows Mobile 6 Standard SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm6std-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm6-common-defaults.vsprops" ConfigurationType="4" Name="Debug|Windows Mobile 6 Professional SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm6pro-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm6-release-defaults.vsprops" ConfigurationType="4" Name="Release|Windows Mobile 6 Standard SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm6std-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm6-release-defaults.vsprops" ConfigurationType="4" Name="Release|Windows Mobile 6 Professional SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm6pro-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm6-common-defaults.vsprops" ConfigurationType="4" Name="Debug-Static|Windows Mobile 6 Standard SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm6std-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm6-common-defaults.vsprops" ConfigurationType="4" Name="Debug-Static|Windows Mobile 6 Professional SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm6pro-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm6-release-defaults.vsprops" ConfigurationType="4" Name="Release-Dynamic|Windows Mobile 6 Standard SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm6std-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm6-release-defaults.vsprops" ConfigurationType="4" Name="Release-Dynamic|Windows Mobile 6 Professional SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm6pro-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm6-common-defaults.vsprops" ConfigurationType="4" Name="Debug-Dynamic|Windows Mobile 6 Standard SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm6std-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm6-common-defaults.vsprops" ConfigurationType="4" Name="Debug-Dynamic|Windows Mobile 6 Professional SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm6pro-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm6-release-defaults.vsprops" ConfigurationType="4" Name="Release-Static|Windows Mobile 6 Standard SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm6std-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm6-release-defaults.vsprops" ConfigurationType="4" Name="Release-Static|Windows Mobile 6 Professional SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" PreprocessorDefinitions="_LIB;" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm6pro-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration ConfigurationType="4" CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm5-common-defaults.vsprops" Name="Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" PreprocessorDefinitions="_LIB;" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm5ppc-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration ConfigurationType="4" CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm5-release-defaults.vsprops" Name="Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" PreprocessorDefinitions="_LIB;" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm5ppc-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration ConfigurationType="4" CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm5-common-defaults.vsprops" Name="Debug-Static|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" PreprocessorDefinitions="_LIB;" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm5ppc-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration ConfigurationType="4" CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm5-release-defaults.vsprops" Name="Release-Dynamic|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" PreprocessorDefinitions="_LIB;" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm5ppc-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration ConfigurationType="4" CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm5-common-defaults.vsprops" Name="Debug-Dynamic|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" PreprocessorDefinitions="_LIB;" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm5ppc-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration ConfigurationType="4" CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm5-release-defaults.vsprops" Name="Release-Static|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" PreprocessorDefinitions="_LIB;" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm5ppc-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration ConfigurationType="4" CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm5-common-defaults.vsprops" Name="Debug|Windows Mobile 5.0 Smartphone SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" PreprocessorDefinitions="_LIB;" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm5sp-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration ConfigurationType="4" CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm5-release-defaults.vsprops" Name="Release|Windows Mobile 5.0 Smartphone SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" PreprocessorDefinitions="_LIB;" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm5sp-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration ConfigurationType="4" CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm5-common-defaults.vsprops" Name="Debug-Static|Windows Mobile 5.0 Smartphone SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" PreprocessorDefinitions="_LIB;" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm5sp-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration ConfigurationType="4" CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm5-release-defaults.vsprops" Name="Release-Dynamic|Windows Mobile 5.0 Smartphone SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" PreprocessorDefinitions="_LIB;" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm5sp-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration ConfigurationType="4" CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-debug-dynamic-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm5-common-defaults.vsprops" Name="Debug-Dynamic|Windows Mobile 5.0 Smartphone SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" PreprocessorDefinitions="_LIB;" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm5sp-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+		<Configuration ConfigurationType="4" CharacterSet="1" ATLMinimizesCRunTimeLibraryUsage="false" InheritedPropertySheets="..\..\..\build\vs\pjproject-vs8-release-static-defaults.vsprops;..\..\..\build\vs\pjproject-vs8-wm5-release-defaults.vsprops" Name="Release-Static|Windows Mobile 5.0 Smartphone SDK (ARMV4I)">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool Name="VCMIDLTool"/>
+			<Tool PrecompiledHeaderFile="" AdditionalIncludeDirectories=".,../../srtp/include,../../srtp/crypto/include,../../../pjlib/include" ExecutionBucket="7" PreprocessorDefinitions="_LIB;" Name="VCCLCompilerTool"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Name="VCResourceCompilerTool"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool OutputFile="..\..\lib\$(ProjectName)-$(TargetCPU)-wm5sp-vc$(VSVer)-$(ConfigurationName).lib" Name="VCLibrarianTool"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCCodeSignTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+			<DeploymentTool AdditionalFiles="" RegisterOutput="0" RemoteDirectory="" ForceDirty="-1"/>
+			<DebuggerTool/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+      <Filter Name="Header Files ./zsrtp/zrtp/zrtp/libzrtpcpp" Filter="h;hpp;hxx;hm;inl;inc;xsd">
+              <File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/Base32.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZIDCache.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZIDCacheDb.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZIDCacheFile.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZIDRecord.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZIDRecordDb.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZIDRecordFile.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZRtp.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/zrtpB64Decode.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/zrtpB64Encode.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/zrtpCacheDbBackend.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpCallback.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpCallbackWrapper.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpCodes.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpConfigure.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpCrc32.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpCWrapper.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/zrtpPacket.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpPacketBase.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpPacketClearAck.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpPacketCommit.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpPacketConf2Ack.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpPacketConfirm.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpPacketDHPart.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpPacketError.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpPacketErrorAck.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpPacketGoClear.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpPacketHello.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpPacketHelloAck.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpPacketPing.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpPacketPingAck.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpPacketRelayAck.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpPacketSASrelay.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpSdesStream.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpStateClass.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpStates.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpTextData.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/libzrtpcpp/ZrtpUserCallback.h"></File>
+            </Filter><Filter Name="Header Files ./zsrtp/zrtp/clients/tivi" Filter="h;hpp;hxx;hm;inl;inc;xsd">
+              <File RelativePath="./zsrtp/zrtp/clients/tivi/CtZrtpCallback.h"></File><File RelativePath="./zsrtp/zrtp/clients/tivi/CtZrtpSession.h"></File><File RelativePath="./zsrtp/zrtp/clients/tivi/CtZrtpStream.h"></File><File RelativePath="./zsrtp/zrtp/clients/tivi/TiviTimeoutProvider.h"></File>
+            </Filter><Filter Name="Header Files ./zsrtp/zrtp/cryptcommon" Filter="h;hpp;hxx;hm;inl;inc;xsd">
+              <File RelativePath="./zsrtp/zrtp/cryptcommon/aes.h"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/aescpp.h"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/aesopt.h"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/aestab.h"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/brg_endian.h"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/brg_types.h"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/macSkein.h"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/skein.h"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/skein_iv.h"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/skein_port.h"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/skeinApi.h"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/twofish.h"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/ZrtpRandom.h"></File>
+            </Filter><Filter Name="Header Files ./zsrtp/zrtp/srtp" Filter="h;hpp;hxx;hm;inl;inc;xsd">
+              <File RelativePath="./zsrtp/zrtp/srtp/CryptoContext.h"></File><File RelativePath="./zsrtp/zrtp/srtp/CryptoContextCtrl.h"></File><File RelativePath="./zsrtp/zrtp/srtp/SrtpHandler.h"></File>
+            </Filter><Filter Name="Header Files ./zsrtp/zrtp/clients/tivi/android/jni/sqlite3" Filter="h;hpp;hxx;hm;inl;inc;xsd">
+              <File RelativePath="./zsrtp/zrtp/clients/tivi/android/jni/sqlite3/sqlite3.h"></File>
+            </Filter><Filter Name="Header Files ./zsrtp/zrtp/common" Filter="h;hpp;hxx;hm;inl;inc;xsd">
+              <File RelativePath="./zsrtp/zrtp/common/EventClass.h"></File><File RelativePath="./zsrtp/zrtp/common/MutexClass.h"></File><File RelativePath="./zsrtp/zrtp/common/osSpecifics.h"></File><File RelativePath="./zsrtp/zrtp/common/Thread.h"></File>
+            </Filter><Filter Name="Header Files ./zsrtp/zrtp/clients/ccrtp" Filter="h;hpp;hxx;hm;inl;inc;xsd">
+              <File RelativePath="./zsrtp/zrtp/clients/ccrtp/CcrtpTimeoutProvider.h"></File><File RelativePath="./zsrtp/zrtp/clients/ccrtp/zrtpccrtp.h"></File><File RelativePath="./zsrtp/zrtp/clients/ccrtp/ZrtpQueue.h"></File>
+            </Filter><Filter Name="Header Files ./zsrtp/zrtp/bnlib" Filter="h;hpp;hxx;hm;inl;inc;xsd">
+              <File RelativePath="./zsrtp/zrtp/bnlib/bn.h"></File><File RelativePath="./zsrtp/zrtp/bnlib/bn16.h"></File><File RelativePath="./zsrtp/zrtp/bnlib/bn32.h"></File><File RelativePath="./zsrtp/zrtp/bnlib/bn64.h"></File><File RelativePath="./zsrtp/zrtp/bnlib/bnprint.h"></File><File RelativePath="./zsrtp/zrtp/bnlib/bnsize00.h"></File><File RelativePath="./zsrtp/zrtp/bnlib/germain.h"></File><File RelativePath="./zsrtp/zrtp/bnlib/jacobi.h"></File><File RelativePath="./zsrtp/zrtp/bnlib/kludge.h"></File><File RelativePath="./zsrtp/zrtp/bnlib/lbn.h"></File><File RelativePath="./zsrtp/zrtp/bnlib/lbn16.h"></File><File RelativePath="./zsrtp/zrtp/bnlib/lbn32.h"></File><File RelativePath="./zsrtp/zrtp/bnlib/lbn64.h"></File><File RelativePath="./zsrtp/zrtp/bnlib/lbnmem.h"></File><File RelativePath="./zsrtp/zrtp/bnlib/legal.h"></File><File RelativePath="./zsrtp/zrtp/bnlib/prime.h"></File><File RelativePath="./zsrtp/zrtp/bnlib/sieve.h"></File>
+            </Filter><Filter Name="Header Files ./zsrtp/zrtp/zrtp/crypto" Filter="h;hpp;hxx;hm;inl;inc;xsd">
+              <File RelativePath="./zsrtp/zrtp/zrtp/crypto/aesCFB.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/hmac256.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/hmac384.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/sha2.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/sha256.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/sha384.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/skein256.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/skein384.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/skeinMac256.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/skeinMac384.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/twoCFB.h"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/zrtpDH.h"></File>
+            </Filter><Filter Name="Header Files ./zsrtp/zrtp/srtp/crypto" Filter="h;hpp;hxx;hm;inl;inc;xsd">
+              <File RelativePath="./zsrtp/zrtp/srtp/crypto/hmac.h"></File><File RelativePath="./zsrtp/zrtp/srtp/crypto/sha1.h"></File><File RelativePath="./zsrtp/zrtp/srtp/crypto/SrtpSymCrypto.h"></File>
+            </Filter><Filter Name="Header Files ./zsrtp/zrtp/bnlib/ec" Filter="h;hpp;hxx;hm;inl;inc;xsd">
+              <File RelativePath="./zsrtp/zrtp/bnlib/ec/ec.h"></File><File RelativePath="./zsrtp/zrtp/bnlib/ec/ecdh.h"></File>
+            </Filter><Filter Name="Header Files ./zsrtp/include" Filter="h;hpp;hxx;hm;inl;inc;xsd">
+              <File RelativePath="./zsrtp/include/transport_zrtp.h"></File><File RelativePath="./zsrtp/include/ZsrtpCWrapper.h"></File>
+            </Filter><Filter Name="Source Files ./zsrtp/zrtp/srtp/crypto/gcrypt" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./zsrtp/zrtp/srtp/crypto/gcrypt/gcrypthmac.cpp"></File><File RelativePath="./zsrtp/zrtp/srtp/crypto/gcrypt/gcryptSrtpSymCrypto.cpp"></File><File RelativePath="./zsrtp/zrtp/srtp/crypto/gcrypt/InitializeGcrypt.cpp"></File>
+            </Filter><Filter Name="Source Files ./zsrtp/zrtp/clients/tivi" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./zsrtp/zrtp/clients/tivi/CtZrtpSession.cpp"></File><File RelativePath="./zsrtp/zrtp/clients/tivi/CtZrtpStream.cpp"></File><File RelativePath="./zsrtp/zrtp/clients/tivi/sdesTestdriver.cpp"></File><File RelativePath="./zsrtp/zrtp/clients/tivi/testdriver.cpp"></File>
+            </Filter><Filter Name="Source Files ./zsrtp/zrtp/cryptcommon" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./zsrtp/zrtp/cryptcommon/aes_modes.c"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/aescrypt.c"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/aeskey.c"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/aestab.c"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/skein.c"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/skein_block.c"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/skeinApi.c"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/twofish.c"></File><File RelativePath="./zsrtp/zrtp/cryptcommon/twofish_cfb.c"></File>
+            </Filter><Filter Name="Source Files ./zsrtp/zrtp/srtp" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./zsrtp/zrtp/srtp/CryptoContext.cpp"></File><File RelativePath="./zsrtp/zrtp/srtp/CryptoContextCtrl.cpp"></File><File RelativePath="./zsrtp/zrtp/srtp/SrtpHandler.cpp"></File>
+            </Filter><Filter Name="Source Files ./zsrtp/zrtp/clients/tivi/android/jni/sqlite3" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./zsrtp/zrtp/clients/tivi/android/jni/sqlite3/sqlite3.c"></File>
+            </Filter><Filter Name="Source Files ./zsrtp/zrtp/common" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./zsrtp/zrtp/common/osSpecifics.c"></File>
+            </Filter><Filter Name="Source Files ./zsrtp/zrtp/zrtp" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./zsrtp/zrtp/zrtp/zrtpB64Decode.c"></File><File RelativePath="./zsrtp/zrtp/zrtp/zrtpB64Encode.c"></File><File RelativePath="./zsrtp/zrtp/zrtp/zrtpCacheSqliteBackend.c"></File>
+            </Filter><Filter Name="Source Files ./zsrtp/zrtp/clients/ccrtp" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./zsrtp/zrtp/clients/ccrtp/ZrtpQueue.cpp"></File>
+            </Filter><Filter Name="Source Files ./zsrtp/srtp" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./zsrtp/srtp/ZsrtpCWrapper.cpp"></File>
+            </Filter><Filter Name="Source Files ./zsrtp/zrtp/bnlib" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./zsrtp/zrtp/bnlib/bn.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/bn00.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/bn16.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/bn32.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/bn64.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/bninit16.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/bninit32.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/bninit64.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/bnprint.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/germain.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/jacobi.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/lbn00.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/lbn16.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/lbn32.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/lbn64.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/lbnmem.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/legal.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/prime.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/sieve.c"></File>
+            </Filter><Filter Name="Source Files ./zsrtp/zrtp/zrtp/crypto/gcrypt" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./zsrtp/zrtp/zrtp/crypto/gcrypt/gcryptAesCFB.cpp"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/gcrypt/gcrypthmac256.cpp"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/gcrypt/gcrypthmac384.cpp"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/gcrypt/gcryptsha256.cpp"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/gcrypt/gcryptsha384.cpp"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/gcrypt/gcryptZrtpDH.cpp"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/gcrypt/InitializeGcrypt.cpp"></File>
+            </Filter><Filter Name="Source Files ./zsrtp/zrtp/srtp/crypto/openssl" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./zsrtp/zrtp/srtp/crypto/openssl/hmac.cpp"></File><File RelativePath="./zsrtp/zrtp/srtp/crypto/openssl/SrtpSymCrypto.cpp"></File>
+            </Filter><Filter Name="Source Files ./zsrtp/zrtp/zrtp/crypto" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./zsrtp/zrtp/zrtp/crypto/sha2.c"></File>
+            </Filter><Filter Name="Source Files ./zsrtp/zrtp/demo" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./zsrtp/zrtp/demo/wrappertest.c"></File>
+            </Filter><Filter Name="Source Files ./zsrtp/zrtp/srtp/crypto" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./zsrtp/zrtp/srtp/crypto/sha1.c"></File>
+            </Filter><Filter Name="Source Files ./zsrtp/zrtp/zrtp/crypto/openssl" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./zsrtp/zrtp/zrtp/crypto/openssl/aesCFB.cpp"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/openssl/hmac256.cpp"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/openssl/hmac384.cpp"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/openssl/InitializeOpenSSL.cpp"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/openssl/sha256.cpp"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/openssl/sha384.cpp"></File><File RelativePath="./zsrtp/zrtp/zrtp/crypto/openssl/zrtpDH.cpp"></File>
+            </Filter><Filter Name="Source Files ./zsrtp/zrtp/bnlib/ec" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./zsrtp/zrtp/bnlib/ec/curve25519-donna.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/ec/ec.c"></File><File RelativePath="./zsrtp/zrtp/bnlib/ec/ecdh.c"></File>
+            </Filter><Filter Name="Source Files ./zsrtp" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./zsrtp/transport_zrtp.c"></File>
+            </Filter><Filter Name="Source Files ./example" Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx">
+              <File RelativePath="./example/simple_pjsua.c"></File>
+            </Filter>
+    </Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
